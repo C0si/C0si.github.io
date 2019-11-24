@@ -76,8 +76,8 @@ body {
 /*////////// Style the background //////////*/
 
 .background{
-  background-image: url("https://i.ibb.co/GdwmgMy/artisan9944.jpg");
-  background-position : 100% 10% ;
+  background-image: url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/51436136_1681589768653681_218724628342767616_n.jpg?_nc_cat=108&_nc_oc=AQnBw2qk9KbgLW0LrfGREAkYvTB5xVRHXXQlpnUmowx-Nr7xsMWA-wgjUKragP9aGds&_nc_ht=scontent-cdg2-1.xx&oh=fe43afa4db4513be473a82b0a678d795&oe=5E58BC1D");
+  background-position : 100% 30% ;
   background-size : 100%;
   height: 450px;
   background-repeat: no-repeat;
@@ -86,36 +86,41 @@ body {
 
 /*////////// Style the grey shape //////////*/
 
+#face{
+  height : 200px;
+  width : 200px;
+  border-radius: 50%;
+  margin : 30px;
+  opacity: 0.7;
+}
+
+#face:hover{
+  opacity : 1;
+}
 
 #shape1{
   height : 400px;
   width: 1000px;
-  background-color : #ddd;
+  background-color : #ececec;
   margin :15px 0px 0px;
   font-size : 40px;
 }
 
 
 #text{
-  margin : 10px 100px 100px 400px;
+  margin : -300px 280px 100px ;
   padding-top : 80px;
-  font-family : Poiret One;
+  font-family : Montserrat;
+  font-size : 35px;
+  color:black;
 
 }
 
-
-
-#triangle-bottomleft {
-    width: 800px;
-    height: 350px;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/Newark_School_of_Violin_Making_%28geograph_1791789%29.jpg);
-    background-position : 100% 5% ;
-    background-size : 100%;
-    /* The points are: centered top, left bottom, right bottom */
-    clip-path: polygon(0 0, 0 100%, 100% 100%);
-    margin : -350px 0px 0px 5px;
+#pres{
+  margin : -70px 20px 0px 260px;
+  font-size : 22px;
+  font-family : Montserrat;
 }
-
 
 
 
