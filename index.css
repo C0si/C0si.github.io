@@ -61,7 +61,7 @@ body {
 /* Change color on hover */
 .topnav a:hover {
   color : blue;
-  border-color: black;
+  border-color: blue;
 }
 
 /*////////// Style the background //////////*/
