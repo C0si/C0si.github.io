@@ -86,45 +86,11 @@ body {
 
 #shape1{
   height : 400px;
-  width : 1000px;
+  width: 1025px;
   background-color : #ddd;
   margin :15px 0px 0px;
-
-
-
 }
 
-
-/*////////// Style the map //////////*/
-
-
-.map{
-  margin :-500px 0px 30px;
-}
-
-
-iframe{
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  opacity: 1;
-}
-
-iframe:hover{
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  opacity: 1;
-}
-
-iframe{
-  transition:all 0.5s linear; 
-  -o-transition:all 0.5s linear; 
-  -moz-transition:all 0.5s linear; 
-  -webkit-transition:all 0.5s linear;
-}
 
 
 
@@ -225,6 +191,39 @@ iframe{
   background-color : white		;
   height : 420px;
 }
+
+
+/*////////// Style the map //////////*/
+
+
+.map{
+  margin :-500px 0px 30px;
+}
+
+
+iframe{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+iframe:hover{
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
+}
+
+iframe{
+  transition:all 0.5s linear; 
+  -o-transition:all 0.5s linear; 
+  -moz-transition:all 0.5s linear; 
+  -webkit-transition:all 0.5s linear;
+}
+
 
 /*////////// Style the prefooter //////////*/
 
