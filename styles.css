@@ -4,11 +4,16 @@
 }
 
 
+#page-container{
+  position : relative;
+  min-height : 100%;
+}
+
 /*////////// Style the header //////////*/
 
 #logo{
   height : 80px;
-  margin : 12px 28px -65px;
+  margin : 12px 28px -79px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -19,6 +24,7 @@ body {
   font-family: Arial, Helvetica, sans-serif, fjalla one, AlexBrushRegular;
   background-color:  white;
   font-size: 20px;
+  
 }
 
 #artisanat{
@@ -70,15 +76,60 @@ body {
   background-image: url("https://i.ibb.co/GdwmgMy/artisan9944.jpg");
   background-position : 100% 10% ;
   background-size : 100%;
-  height: 700px;
+  height: 450px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 
 .map{
-  margin :0px 50px -412px;
+  margin :-500px 0px 30px;
 }
+
+
+#shape1{
+  height : 400px;
+  width : 170px;
+  background-color : #ddd;
+  margin :15px 0px 0px;
+
+
+
+}
+
+
+#shape2{
+
+  margin :-400px 170px 0px;
+
+
+  }
+
+  #shape3{
+    height : 400px;
+    width : 160px;
+    background-color : #ddd;
+    margin :-405px 870px 0px;
+  }
+  
+  #shape3:hover{
+    background-image : url("https://i.ibb.co/GdwmgMy/artisan9944.jpg");
+    }
+
+.st0{fill:#ddd;}
+.st1{fill:#ddd;}
+.st2{fill:#ddd;}
+.st3{fill:#ddd;}
+
+.st1:hover + div{
+  background-image : url("https://i.ibb.co/GdwmgMy/artisan9944.jpg");
+  }
+.st3:hover{
+  background-image : url("https://i.ibb.co/GdwmgMy/artisan9944.jpg");
+  }
+.st0:hover{
+  fill:rgb(163, 9, 9);  }  
+
 /*///////// Style slideshow /////////*/
 
 .mySlides {
@@ -100,7 +151,8 @@ body {
   padding-top : 10px;
   padding-left : 0px;
   float : right;
-  margin : -1px 20px 10px;
+  margin : -410px -0px 150px;
+  padding-bottom : 10px;
   }
 
 /* Next & previous buttons */
@@ -176,9 +228,10 @@ body {
 /*////////// Style the prefooter //////////*/
 
 .prefooter{
-  background-color: #dddd;
+  background-color: white;
   padding: 8px;
-  height : 5px;
+  margin : -45px 0px 0px 0px;
+  height : 20px;
 }
 
 
@@ -193,13 +246,6 @@ padding-top : 10px;
 width : 200px;
   
 }
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif, fjalla one;
- // font-weight : bold;
-  background-color:  white;
-  font-size: 20px;
-}
 
 
 .site-footer {
@@ -208,6 +254,7 @@ body {
   background-color:#26272b;
   font-size:15px;
   line-height:20px;  
+  
 }
 
 .site-footer h2 {
@@ -239,32 +286,32 @@ body {
 
 .fa-facebook {
   color: white;
-  background : grey;
+  background : #3B5998;
   transition: all ease-in-out 200ms;  
 }
   
 .fa-facebook:hover {
-    background: #3B5998;
+    background: grey ;
 }
 
 
 .fa-twitter {
   color: white;
-  background : grey;
+  background : #55ACEE ; 
   transition: all ease-in-out 200ms; 
 }
   
 .fa-twitter:hover {
-    background: #55ACEE;
+    background: grey;
 }
 
 .fa-google {
   color: white;
-  background : grey;
+  background : #dd4b39;
   transition: all ease-in-out 200ms; 
 }
 .fa-google:hover {
-    background:#dd4b39;
+    background:grey ;
 }
  
 #icon{
@@ -273,40 +320,6 @@ body {
 }
 
 
-.prefooter {
-  height : 10px;
-  background : ddd;
-}
-
-#adress{
-  margin : -45px 55px -10px;
-  font-size : 15px;
-  letter-spacing : 1px;
-  line-height : 25px;
-  width : 300px;
-    font-size : 14px;
-
-}
-
-#phone-num{
-  margin : -30px 10px -15px;
-  padding-bottom: 10px;
-  font-size : 14px;
-  letter-spacing : 1px;
-  line-height : 25px;
-  width : 300px;
-
-}
-
-#mail{
-  margin : -35px 55px -10px;
-  letter-spacing : 1px;
-  line-height : 25px;
-  color : white;
-  width : 300px;
-  font-size : 14px;
-
-}
 
 #rez{
   margin : 80px 55px 10px;
