@@ -60,15 +60,18 @@ body {
   padding: 10px 13px;
   font-size : 24px;
   text-decoration: none;
-  border-top: 1px solid transparent;
+  border-top: 3px solid transparent;
   transition: all ease-in-out 300ms;  
 }
 
 /* Change color on hover */
 .topnav a:hover {
   color : black;
-  border-color: black;
+  border-color: #ddd;
 }
+
+
+
 
 /*////////// Style the background //////////*/
 
@@ -89,8 +92,35 @@ body {
   width: 1000px;
   background-color : #ddd;
   margin :15px 0px 0px;
+  font-size : 40px;
 }
 
+
+#text{
+  margin : 10px 100px 100px 400px;
+  padding-top : 80px;
+  font-family : Poiret One;
+
+}
+
+
+
+#triangle-bottomleft {
+    width: 800px;
+    height: 350px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/Newark_School_of_Violin_Making_%28geograph_1791789%29.jpg);
+    background-position : 100% 5% ;
+    background-size : 100%;
+    /* The points are: centered top, left bottom, right bottom */
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+    margin : -350px 0px 0px 5px;
+    opacity: 0.5; 
+}
+
+#triangle-bottomleft:hover {
+  opacity: 1; 
+
+}
 
 
 
