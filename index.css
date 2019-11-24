@@ -60,7 +60,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-  color : black;
+  color : blue;
   border-color: black;
 }
 
