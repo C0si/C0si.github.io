@@ -81,6 +81,22 @@ body {
   background-attachment: fixed;
 }
 
+/*////////// Style the grey shape //////////*/
+
+
+#shape1{
+  height : 400px;
+  width : 1000px;
+  background-color : #ddd;
+  margin :15px 0px 0px;
+
+
+
+}
+
+
+/*////////// Style the map //////////*/
+
 
 .map{
   margin :-500px 0px 30px;
@@ -89,10 +105,10 @@ body {
 
 iframe{
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-  filter: alpha(opacity=70);
-  -moz-opacity: 0.7;
-  -khtml-opacity: 0.7;
-  opacity: 0.7;
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  opacity: 1;
 }
 
 iframe:hover{
@@ -111,53 +127,7 @@ iframe{
 }
 
 
-#shape1{
-  height : 400px;
-  width : 170px;
-  background-color : #ddd;
-  margin :15px 0px 0px;
 
-
-
-}
-
-#shape1:hover{
-  opacity: 0;}
-
-#shape2{
-
-  margin :-400px 170px 0px;
-
-
-  }
-
-  #shape3{
-    height : 400px;
-    width : 160px;
-    background-color : #ddd;
-    margin :-405px 870px 0px;
-  }
-  
-  #shape3:hover{
-    opacity: 0;}
-
-.st0{fill:#ddd;}
-.st1{fill:#ddd;}
-.st2{fill:#ddd;}
-.st3{fill:#ddd;}
-
-.st0:hover{
-  opacity: 0;
-}  
-
-.st1:hover {
-  opacity: 0; }  
-
-.st2:hover {
-  opacity: 0; }  
-
-.st3:hover{
-  opacity: 0; }  
 
 
 
